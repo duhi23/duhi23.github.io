@@ -199,7 +199,7 @@ ul#nav li.current a { color: #F06000; } /* change from #F06000*/
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #00BDBD; /* changed from #2B2B2B */
+    background: #2ba6d5; /* changed from #00BDBD */ 
     padding-top: 96px;
     padding-bottom: 60px; /* 66px */
     overflow: hidden;
@@ -737,7 +737,7 @@ ul#nav li.current a { color: #F06000; } /* change from #F06000*/
 /* ------------------------------------------------------------------ */
 
 #photos {
-    background: #1F1F1F url(../images/backstretch.jpg) no-repeat center center;
+    background: #494949 url(../images/backstretch.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -949,7 +949,7 @@ ul#nav li.current a { color: #F06000; } /* change from #F06000*/
 */
 
 #contact {
-    background: #9b59b6; /* changed from #2B2B2B */
+    background: #97698f; /* changed from #2B2B2B */
     padding-top: 96px;
     padding-bottom: 35px; /* 66px */
     overflow: hidden;
