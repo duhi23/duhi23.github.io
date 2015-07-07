@@ -495,7 +495,7 @@ ul#nav li.current a { color: #F06000; } /* change from #F06000*/
 
 #portfolio {
     /* background: #ebeeee; */
-    background: #ebeeef;
+    background: #498c03;
     padding-top: 70px;
     padding-bottom: 60px;
     overflow: hidden
@@ -512,7 +512,7 @@ ul#nav li.current a { color: #F06000; } /* change from #F06000*/
 }
 
 #portfolio h1 span {
-    border-bottom: 3px solid #11ABB0;
+    border-bottom: 3px solid #000;
     padding-bottom: 6px;
 }
   
@@ -737,7 +737,7 @@ ul#nav li.current a { color: #F06000; } /* change from #F06000*/
 /* ------------------------------------------------------------------ */
 
 #photos {
-    background: #494949 url(../images/backstretch.jpg) no-repeat center center;
+    background: #5c5858 url(../images/backstretch.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
