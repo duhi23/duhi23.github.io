@@ -1,70 +1,59 @@
-title:            Diego Huaraca
-description:      My thoughts about R and analytics.
-logo:             images/diego.jpg
-disqus_shortname: duhi23
-search:           true
-# Change url to your domain. Leave localhost server or blank when working locally.
-# You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
-url:              http://localhost:4000
+# Welcome to Jekyll!
 
-# Owner/author information
-owner:
-  name:           Diego Huaraca
-  avatar:         flecha2.png
-  email:          diego.21.dphs@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: duhi23
-  facebook:
-  github: duhi23
-  stackexchange:
-  linkedin: duhi23
-  instagram:
-  flickr:
-  tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+# Website settings
+title: Diego Huaraca
+description: Diego Paul Huaraca Shagñay.
+keywords: Github, duhi23
+baseurl: # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: http://duhi23.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: GitHub  # Be used at blog posts' author.
+  first_name: Diego Paul Huaraca Shagñay  # Be used at index page about me section.
+  last_name: # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: duhi23  # Leave blank if you don't have now
+  linkedin_id: diego-paúl-huaraca-s-0200b44b # Leave blank if you don't have now
+  facebook_username: duhi23  # Leave blank if you don't have now
+  twitter_username: duhi23  # Leave blank if you don't have now
+  email: diego.21.phs@hotmail.com  # Leave blank if you don't have now
+  cv: http://duhi23.github.io/curriculum_vitae.pdf  # A online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: Si he hecho descubrimientos invaluables ha sido más por tener paciencia que por cualquier otro talento.  # Describe yourself.
 
-# Links to include in top navigation
-# For external links add external: true
-#links:
-#  - title: Articles
-#    url: /articles/
-#  - title: About
-#    url: /about/
-#  - title: CV
-#    url: /cv/
-#  - title: R Course
-#    url: /r-course
+# comment
+#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#  name: jalpc
+#  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
-future:      true
-highlighter: pygments
-markdown:    kramdown
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id:
 
-gems:
-  - jekyll-sitemap
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+## donation
+donation: on  # type 'on'/'off' to choice display donation button at post page or not
 
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
 kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor"]
+  input: GFM
+  syntax_highlighter: rouge

@@ -1,0 +1,99 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Instituto Ecuatoriano de Seguridad Social
+    i18n: company_a
+  desc:
+    detail: Elaboración de estudios, informes técnicos e investigaciones sobre la situación financiera actuarial. Cálculo de tendencias y proyecciones estadísticas.
+    i18n: company_a_desc
+  date:
+    detail: Febrero 2016 - Agosto 2016
+    i18n: company_a_date
+  job:
+    detail: Estadístico
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: Escuela Politécnica Nacional
+    i18n: company_b
+  desc:
+    detail: Profesor del Departamento de Matemática en las cátedras; Análisis y tratamiento de datos con R, Teoría de Juegos y Cálculo en una variable.
+    i18n: company_b_desc
+  date:
+    detail: Mayo 2015 - Enero 2016
+    i18n: company_b_date
+  job:
+    detail: Técnico Docente
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: EQUIFAX, Buró de Información Crediticia
+    i18n: company_c
+  desc:
+    detail: Desarrollo de modelos crediticios para instituciones del Sistema Financiero de Ecuador y Perú. Automatización de metodologías empleadas en la construcción de modelos scoring. Desarrollo de nuevos productos; Segmentación de clientes, Sobreendeudamiento, etc.
+    i18n: company_c_desc
+  date:
+    detail: Julio 2013 - Abril 2015
+    i18n: company_c_date
+  job:
+    detail: Analista Senior de Riesgos
+    i18n: company_c_job
+  icon: fa-plus-square
+  
+- name:
+    detail: CEAACES
+    i18n: company_d
+  desc:
+    detail: Miembro del equipo consultor del proyecto; Análisis de la situación del Sistema de Educación conformado por las Universidades y Escuela Politécnicas, con base en la evaluación realizada por el Ceaaces en el año 2013, Consejo de Evaluación, Acreditación y Aseguramiento de la Calidad de la Educación Superior.
+    i18n: company_d_desc
+  date:
+    detail: Noviembre 2014 - Marzo 2015
+    i18n: company_d_date
+  job:
+    detail: Consultor
+    i18n: company_d_job
+  icon: fa-plus-square
+
+- name:
+    detail: Escuela Politécnica Nacional
+    i18n: company_e
+  desc:
+    detail: Analista de datos y editor de los artículos del Proyecto Strategic Faculty Management and Higher Education Strategies entre las Universidades; EPN Quito, TU Berlin, UC Temuco.
+    i18n: company_e_desc
+  date:
+    detail: Noviembre 2012 - Junio 2013
+    i18n: company_e_date
+  job:
+    detail: Auxiliar de Laboratorio
+    i18n: company_e_job
+  icon: fa-plus-square
+
+- name:
+    detail: EQUIFAX, Buró de Información Crediticia
+    i18n: company_f
+  desc:
+    detail: Desarrollo y documentación de modelos scoring para Instituciones Financieras Ecuatorianas.
+    i18n: company_f_desc
+  date:
+    detail: Noviembre 2011 - Octubre 2012
+    i18n: company_f_date
+  job:
+    detail: Pasante
+    i18n: company_f_job
+  icon: fa-plus-square
+  
+- name:
+    detail: Sociedad Ecuatoriana de Matemática
+    i18n: company_g
+  desc:
+    detail: Edición de las pruebas para la Olimpiada Intercolegial de Matemática 2010.
+    i18n: company_g_desc
+  date:
+    detail: Enero 2010 - Mayo 2010
+    i18n: company_g_date
+  job:
+    detail: Editor
+    i18n: company_g_job
+  icon: fa-plus-square
