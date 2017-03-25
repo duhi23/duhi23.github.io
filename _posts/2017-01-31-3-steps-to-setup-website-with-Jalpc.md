@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Creación de GitHub Pages"
-date:   2017-03-20
+date:   2017-03-25
 desc: "Website with Jalpc"
 keywords: "Jekyll,gh-pages,website"
-categories: [HTML]
+categories: [R]
 tags: [Jalpc,Jekyll]
 icon: icon-html
 ---
