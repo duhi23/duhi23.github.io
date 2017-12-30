@@ -1,2 +1,0 @@
-### Script Graficos Página Web ###
-
